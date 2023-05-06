@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>variaveis.qml</file>
+        <file>layouts/ItemLayout.qml</file>
+        <file>layouts/ColumnLayout.qml</file>
+        <file>layouts/RowLayout.qml</file>
+        <file>layouts/GridLayout.qml</file>
+    </qresource>
+</RCC>
