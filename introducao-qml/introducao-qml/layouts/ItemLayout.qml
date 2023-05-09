@@ -1,5 +1,12 @@
 import QtQuick 2.15
 
+/*
+    Por não ter uma disposição automática, quando dois ou mais elementos são adicionados e não têm a posição definida
+    eles ficarão sobrepostos, tendo o último elemento adicionado como o primeiro da pilha, e o que vai estar visível.
+
+    É possível verificar isso removendo as linhas 24 e 40 deste código. O único elemento a aparecer em tela será o elemento 2.
+*/
+
 Item {
     id: root
 
