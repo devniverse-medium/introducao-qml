@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>custom/InputCustom.qml</file>
+        <file>custom/ButtonCustom.qml</file>
+        <file>LoginCard.qml</file>
+    </qresource>
+</RCC>
