@@ -1,0 +1,35 @@
+# ninja log v5
+231	1536	7061507902849951	CMakeFiles/login-exemplo.dir/main.cpp.obj	7d758b1a7cef30cd
+5	76	7061523642291717	C:/Users/hanka/OneDrive/Programas e arquivos antigos/Documentos/GitHub/introducao-qml/build-login-exemplo-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp	87681f1a314b1b92
+5	137	7061506426941168	.qt_plugins/Qt6_QmlPlugins_Imports_login-exemplo.cmake	8db7fe1f2b236d6c
+10	147	7061507888946878	login-exemplo_autogen/mocs_compilation.cpp	e35d9ab71221c02b
+5	137	7061506426941168	C:/Users/hanka/OneDrive/Programas e arquivos antigos/Documentos/GitHub/introducao-qml/build-login-exemplo-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_login-exemplo.cmake	8db7fe1f2b236d6c
+10	147	7061507888946878	login-exemplo_autogen/timestamp	e35d9ab71221c02b
+428	483	7061506430607001	CMakeFiles/login-exemplo.dir/login-exemplo_autogen/mocs_compilation.cpp.obj	aa6b4d89a4d82a33
+10	147	7061507888946878	C:/Users/hanka/OneDrive/Programas e arquivos antigos/Documentos/GitHub/introducao-qml/build-login-exemplo-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/login-exemplo_autogen/timestamp	e35d9ab71221c02b
+10	147	7061507888946878	C:/Users/hanka/OneDrive/Programas e arquivos antigos/Documentos/GitHub/introducao-qml/build-login-exemplo-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/login-exemplo_autogen/mocs_compilation.cpp	e35d9ab71221c02b
+5	76	7061523642291717	login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp	87681f1a314b1b92
+76	128	7061523643041028	CMakeFiles/login-exemplo.dir/login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp.obj	a2d239d37efbde4a
+129	246	7061523644085953	login-exemplo.exe	752afd3f218c937
+1	24	0	CMakeFiles/clean.additional	baedbe210acaa455
+25	32	0	clean	577b940aee94fbd7
+4	73	7061523879468200	login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp	87681f1a314b1b92
+4	73	7061523879468200	C:/Users/hanka/OneDrive/Programas e arquivos antigos/Documentos/GitHub/introducao-qml/build-login-exemplo-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp	87681f1a314b1b92
+74	124	7061523880066487	CMakeFiles/login-exemplo.dir/login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp.obj	a2d239d37efbde4a
+124	241	7061523881269520	login-exemplo.exe	752afd3f218c937
+5	72	7061524478022407	login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp	87681f1a314b1b92
+5	72	7061524478022407	C:/Users/hanka/OneDrive/Programas e arquivos antigos/Documentos/GitHub/introducao-qml/build-login-exemplo-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp	87681f1a314b1b92
+73	124	7061524478758730	CMakeFiles/login-exemplo.dir/login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp.obj	a2d239d37efbde4a
+125	239	7061524479804112	login-exemplo.exe	752afd3f218c937
+5	72	7061525170940246	login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp	87681f1a314b1b92
+5	72	7061525170940246	C:/Users/hanka/OneDrive/Programas e arquivos antigos/Documentos/GitHub/introducao-qml/build-login-exemplo-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp	87681f1a314b1b92
+72	122	7061525171522285	CMakeFiles/login-exemplo.dir/login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp.obj	a2d239d37efbde4a
+123	246	7061525172725715	login-exemplo.exe	752afd3f218c937
+5	76	7061525734858177	login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp	87681f1a314b1b92
+5	76	7061525734858177	C:/Users/hanka/OneDrive/Programas e arquivos antigos/Documentos/GitHub/introducao-qml/build-login-exemplo-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp	87681f1a314b1b92
+76	127	7061525735615631	CMakeFiles/login-exemplo.dir/login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp.obj	a2d239d37efbde4a
+128	243	7061525736662775	login-exemplo.exe	752afd3f218c937
+4	76	7061526344791555	login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp	87681f1a314b1b92
+4	76	7061526344791555	C:/Users/hanka/OneDrive/Programas e arquivos antigos/Documentos/GitHub/introducao-qml/build-login-exemplo-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp	87681f1a314b1b92
+77	127	7061526345386229	CMakeFiles/login-exemplo.dir/login-exemplo_autogen/EWIEGA46WW/qrc_qml.cpp.obj	a2d239d37efbde4a
+127	243	7061526346595310	login-exemplo.exe	752afd3f218c937

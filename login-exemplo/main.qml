@@ -2,10 +2,31 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 
 Window {
+    id: app
+
     width: 1050
     height: 700
     visible: true
     title: qsTr("Login")
+
+    function checkEmail( email ) {
+        //utilizando expressão regular para verificar se o email está de acordo com os seguintes padrões:
+
+        /*
+        Começa com um ou mais caracteres alfanuméricos, pontos, traços, porcentagens ou sinais de adição ou subtração.
+        Seguido pelo caractere "@".
+        Seguido por um ou mais caracteres alfanuméricos, pontos ou traços.
+        Seguido pelo caractere ".".
+        Termina com dois ou mais caracteres alfabéticos.
+        */
+
+        var padrao = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+        return padrao.test(email);
+    }
+
+    function checkPassword( password ) {
+        return password.length > 0
+    }
 
     Row {
         id: row
@@ -55,6 +76,34 @@ Window {
                width: parent.width * 0.75
 
                anchors.centerIn: parent
+
+               onSubmit: function( email, password ) {
+                   var loginValido = checkEmail( email ) && checkPassword( password )
+
+                   //TODO
+                   //implementar e chamar outra tela caso o login seja válido
+               }
+
+               Text {
+                   id: errorLabel
+
+                   text: "Email ou senha inválidos"
+
+                   font {
+                       pixelSize: 12
+                       family: 'Courier'
+                       bold: true
+                   }
+
+                   anchors {
+                       bottom: parent.bottom
+                       bottomMargin: 15
+                       horizontalCenter: parent.horizontalCenter
+                   }
+
+                   color: "#000000"
+               }
+
            }
 
            Text {

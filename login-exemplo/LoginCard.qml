@@ -8,6 +8,10 @@ Rectangle {
     property string primaryColor: "#FFFFFF"
     property string title: "Bem vindo"
 
+    property string _text: ""
+
+    signal submit( string email, string password )
+
     height: 120
     width: 120
     radius: 8
@@ -62,8 +66,11 @@ Rectangle {
             textColor: "white"
             primaryColor: "#514869"
             anchors.horizontalCenter: parent.horizontalCenter
+
+            onClicked: {
+                root.submit( email._text, senha._text )
+            }
         }
     }
-
 }
 

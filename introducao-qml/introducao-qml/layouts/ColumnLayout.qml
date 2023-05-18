@@ -8,7 +8,6 @@ import QtQuick 2.15
     serão alocados um abaixo do outro
 */
 
-
 Column {
     id: root
 

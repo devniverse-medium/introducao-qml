@@ -8,6 +8,8 @@ Item {
     property string primaryColor: ""
     property string textColor: ""
 
+    signal clicked
+
     height: 30
     width: 120
 
@@ -27,6 +29,11 @@ Item {
             horizontalAlignment: Text.AlignHCenter
             elide: Text.ElideRight
             font.pixelSize: 20
+        }
+
+        onClicked: {
+            root.clicked()
+            console.log("a")
         }
     }
 }

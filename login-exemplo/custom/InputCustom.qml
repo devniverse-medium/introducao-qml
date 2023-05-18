@@ -12,6 +12,8 @@ Column {
     property string label: ""
     property var echoMode: TextInput.Normal
 
+    property string _text: ""
+
     Text {
         text: container.label
         font.family: "Noto Sans"
@@ -24,7 +26,6 @@ Column {
         height: parent.height
         width: parent.width
         radius: 8
-        color: transparent
 
         border.color: container.borderColor
         anchors.margins: 5
@@ -42,6 +43,9 @@ Column {
             font.pixelSize: root.height * 0.6
             echoMode: container.echoMode
 
+            onTextChanged: {
+                container._text = text
+            }
         }
     }
 }
