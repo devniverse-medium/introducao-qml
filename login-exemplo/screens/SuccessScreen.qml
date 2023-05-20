@@ -14,16 +14,8 @@ Rectangle {
             id: img
 
             anchors.centerIn: parent
-            //C:\Users\hanka\OneDrive\Programas e arquivos antigos\Documentos\GitHub\introducao-qml\login-exemplo
-            source: "../../trofeu.png"
+            //TODO adicionar imagem
+            source: ""
         }
-
-//        Text {
-//            id: msg
-
-//            //TODO centralizar texto
-//            text: "Login realizado com sucesso!\n
-//            Agora você já pode construir suas próprias UIs usando o QML :)"
-//        }
     }
 }
