@@ -33,7 +33,6 @@ Item {
 
         onClicked: {
             root.clicked()
-            console.log("a")
         }
     }
 }

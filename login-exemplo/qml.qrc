@@ -3,6 +3,8 @@
         <file>main.qml</file>
         <file>custom/InputCustom.qml</file>
         <file>custom/ButtonCustom.qml</file>
-        <file>LoginCard.qml</file>
+        <file>screens/LoginScreen.qml</file>
+        <file>custom/LoginCardCustom.qml</file>
+        <file>screens/SuccessScreen.qml</file>
     </qresource>
 </RCC>

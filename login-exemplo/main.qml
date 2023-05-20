@@ -1,6 +1,7 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
 
+import "./screens"
 Window {
     id: app
 
@@ -9,123 +10,25 @@ Window {
     visible: true
     title: qsTr("Login")
 
-    function checkEmail( email ) {
-        //utilizando expressão regular para verificar se o email está de acordo com os seguintes padrões:
-
-        /*
-        Começa com um ou mais caracteres alfanuméricos, pontos, traços, porcentagens ou sinais de adição ou subtração.
-        Seguido pelo caractere "@".
-        Seguido por um ou mais caracteres alfanuméricos, pontos ou traços.
-        Seguido pelo caractere ".".
-        Termina com dois ou mais caracteres alfabéticos.
-        */
-
-        var padrao = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
-        return padrao.test(email);
+    function showSuccessScreen() {
+        //loginScreen.visible = false
+        successScreen.visible = true
     }
 
-    function checkPassword( password ) {
-        return password.length > 0
-    }
+//    LoginScreen {
+//        id: loginScreen
 
-    Row {
-        id: row
+//        anchors.fill: parent
+
+//        onLoginSuccess: {
+//            app.showSuccessScreen()
+//        }
+//    }
+
+    SuccessScreen {
+        id: successScreen
+
         anchors.fill: parent
-
-        Rectangle {
-            id: leftText
-
-            width: parent.width * 0.4
-            height: parent.height
-
-
-            color: "#201b2c"
-
-            Text {
-                id: leftMessage
-
-                anchors.centerIn: parent
-                width: parent.width
-
-                text: qsTr("Desenvolvendo uma tela de login eficiente com QML")
-                horizontalAlignment: Text.AlignHCenter
-                wrapMode: Text.WordWrap
-                padding: 15
-
-                color: "#00ff88"
-
-                font {
-                    pixelSize: parent.width * 0.1
-                    family: 'Courier'
-                    bold: true
-                }
-            }
-        }
-
-        Rectangle {
-            id: cardContainer
-
-            color: "#2f2841"
-            height: parent.height
-            width: parent.width * 0.6
-
-           LoginCard {
-               id: card
-
-               height: parent.height * 0.75
-               width: parent.width * 0.75
-
-               anchors.centerIn: parent
-
-               onSubmit: function( email, password ) {
-                   var loginValido = checkEmail( email ) && checkPassword( password )
-
-                   //TODO
-                   //implementar e chamar outra tela caso o login seja válido
-               }
-
-               Text {
-                   id: errorLabel
-
-                   text: "Email ou senha inválidos"
-
-                   font {
-                       pixelSize: 12
-                       family: 'Courier'
-                       bold: true
-                   }
-
-                   anchors {
-                       bottom: parent.bottom
-                       bottomMargin: 15
-                       horizontalCenter: parent.horizontalCenter
-                   }
-
-                   color: "#000000"
-               }
-
-           }
-
-           Text {
-               id: copy
-
-               text: "DevNiverse"
-
-               font {
-                   pixelSize: 12
-                   family: 'Courier'
-                   bold: true
-               }
-
-               anchors {
-                   horizontalCenter: parent.horizontalCenter
-                   bottom: parent.bottom
-                   bottomMargin: 10
-               }
-
-               color: "#00ff88"
-
-           }
-        }
+        //visible: false
     }
 }
