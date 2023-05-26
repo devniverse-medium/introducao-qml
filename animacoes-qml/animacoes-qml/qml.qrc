@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MovingAnimation.qml</file>
+        <file>RotationAnimationCustom.qml</file>
+        <file>ColorAnimationCustom.qml</file>
+        <file>LoadingAnimation.qml</file>
+    </qresource>
+</RCC>
