@@ -6,16 +6,19 @@ Rectangle {
     width: 1050
     height: 700
 
+    color: "#201b2c"
+
     Column {
         anchors.fill: parent
         spacing: 15
 
-        Image {
-            id: img
-
+        Text {
+            text: "Parabéns!!!\nVocê acessou o sistema com sucesso"
+            font.family: 'Courier'
+            font.pixelSize: 50
+            horizontalAlignment: Text.AlignHCenter
             anchors.centerIn: parent
-            //TODO adicionar imagem
-            source: ""
+            color: "#00ff88"
         }
     }
 }

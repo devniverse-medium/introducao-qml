@@ -6,6 +6,7 @@ Rectangle {
     id: root
 
     property string msg_email_fora_do_padrao: "O email informado não segue os padrões necessários"
+    property string msg_email_nao_informado: "Email não informado"
     property string msg_senha_nao_informada: "Informe ao menos um caracter no campo de senha"
 
     signal loginSuccess
@@ -14,6 +15,12 @@ Rectangle {
     height: 700
 
     function checkEmail( email ) {
+
+        if ( email.length < 1 ) {
+            errorLabel.text = msg_email_nao_informado
+            return false
+        }
+
         //utilizando expressão regular para verificar se o email está de acordo com os seguintes padrões:
 
         /*
