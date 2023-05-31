@@ -1,9 +1,0 @@
--rootPath
-C:/Users/hanka/OneDrive/Programas e arquivos antigos/Documentos/GitHub/introducao-qml/login-exemplo
--cmake-output
--output-file
-C:/Users/hanka/OneDrive/Programas e arquivos antigos/Documentos/GitHub/introducao-qml/build-login-exemplo-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_login-exemplo.cmake
--importPath
-C:/Users/hanka/OneDrive/Programas e arquivos antigos/Documentos/GitHub/introducao-qml/build-login-exemplo-Desktop_Qt_6_4_0_MinGW_64_bit-Debug
--importPath
-C:/Qt/6.4.0/mingw_64/./qml
