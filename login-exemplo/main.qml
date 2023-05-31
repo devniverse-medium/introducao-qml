@@ -2,6 +2,7 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 
 import "./screens"
+
 Window {
     id: app
 
@@ -11,24 +12,33 @@ Window {
     title: qsTr("Login")
 
     function showSuccessScreen() {
-        //loginScreen.visible = false
-        successScreen.visible = true
+        myLoader.sourceComponent = screenSuccess
     }
 
-//    LoginScreen {
-//        id: loginScreen
-
-//        anchors.fill: parent
-
-//        onLoginSuccess: {
-//            app.showSuccessScreen()
-//        }
-//    }
-
-    SuccessScreen {
-        id: successScreen
-
+    Loader {
+        id: myLoader
         anchors.fill: parent
-        //visible: false
+        sourceComponent: screenLogin
     }
+
+    Component {
+        id: screenLogin
+
+        LoginScreen {
+            anchors.fill: parent
+
+            onLoginSuccess: {
+                app.showSuccessScreen()
+            }
+        }
+    }
+
+    Component {
+        id: screenSuccess
+
+        SuccessScreen {
+            anchors.fill: parent
+        }
+    }
+
 }

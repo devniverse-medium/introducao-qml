@@ -1,5 +1,7 @@
 import QtQuick 2.15
 
+import LoginControl 1.0
+
 import "../custom"
 
 Rectangle {
@@ -13,6 +15,19 @@ Rectangle {
 
     width: 1050
     height: 700
+
+    LoginControl {
+        id: control
+
+        onSuccess: {
+            root.loginSuccess()
+        }
+
+        onFail: function( msg ) {
+            errorLabel.text = msg
+            errorLabel.visible = true
+        }
+    }
 
     function checkEmail( email ) {
 
@@ -105,10 +120,7 @@ Rectangle {
                        return
                    }
 
-                   root.loginSuccess()
-
-                   //TODO
-                   //implementar e chamar outra tela caso o login seja válido
+                   control.doLogin( email, password )
                }
 
                Text {
