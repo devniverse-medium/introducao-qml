@@ -1,4 +1,4 @@
-import QtQuick 2.15
+import QtQuick 2.12
 
 Column {
     id: container
@@ -10,7 +10,7 @@ Column {
     property string borderColor: ""
     property string placeholder: ""
     property string label: ""
-    property var echoMode: TextInput.Normal
+    property int echoMode: TextInput.Normal
 
     property string _text: ""
 

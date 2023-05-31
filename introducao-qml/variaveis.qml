@@ -23,7 +23,7 @@ Item {
 
     //objetos
     property var carro: {
-        modelo: "golf",
+        modelo: "golf"
         rebaixado: true
     }
 }

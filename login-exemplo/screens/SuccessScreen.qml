@@ -9,7 +9,7 @@ Rectangle {
     color: "#201b2c"
 
     Column {
-        anchors.fill: parent
+        anchors.centerIn: parent
         spacing: 15
 
         Text {
@@ -17,7 +17,7 @@ Rectangle {
             font.family: 'Courier'
             font.pixelSize: 50
             horizontalAlignment: Text.AlignHCenter
-            anchors.centerIn: parent
+
             color: "#00ff88"
         }
     }
